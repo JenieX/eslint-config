@@ -1,6 +1,6 @@
 {
   "name": "@jeniex/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "JenieX",
   "license": "MIT",
   "homepage": "https://github.com/JenieX/eslint-config",
@@ -14,10 +14,10 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.36.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-unicorn": "^46.0.0",
-    "eslint": "^8.36.0"
+    "eslint-plugin-unicorn": "^46.0.0"
   }
 }
