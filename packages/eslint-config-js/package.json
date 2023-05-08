@@ -1,6 +1,6 @@
 {
-  "name": "@jeniex/eslint-config-ts",
-  "version": "0.0.9",
+  "name": "@jeniex/eslint-config-js",
+  "version": "0.0.3",
   "author": "JenieX",
   "license": "MIT",
   "homepage": "https://github.com/JenieX/eslint-config",
@@ -12,10 +12,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@jeniex/eslint-config-base": "^0.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.54.0",
-    "@typescript-eslint/parser": "^5.54.0",
-    "eslint-config-airbnb-typescript": "^17.0.0"
+    "@jeniex/eslint-config-base": "^0.0.1"
   },
   "publishConfig": {
     "access": "public"

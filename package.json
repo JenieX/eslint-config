@@ -5,6 +5,6 @@
   "license": "MIT",
   "homepage": "https://github.com/JenieX/eslint-config",
   "devDependencies": {
-    "@jeniex/eslint-config-ts": "^0.0.4"
+    "@jeniex/eslint-config-ts": "^0.0.9"
   }
 }
