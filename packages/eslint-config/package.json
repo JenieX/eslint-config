@@ -1,0 +1,26 @@
+{
+  "name": "@jeniex/eslint-config",
+  "version": "0.0.3",
+  "author": "JenieX",
+  "license": "MIT",
+  "homepage": "https://github.com/JenieX/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "prettier": "^3.0.3",
+    "prettier-plugin-jsdoc": "^1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "extends": "./packages/eslint-config-ts/index.js"
-  // "extends": "./packages/eslint-config-js/index.js"
-  // "extends": "@jeniex/eslint-config-ts"
+  "extends": "@jeniex"
+  // "extends": "./packages/eslint-config/index.js"
 }
