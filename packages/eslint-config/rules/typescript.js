@@ -9,6 +9,7 @@ module.exports = {
     '@typescript-eslint/array-type': [2, { default: 'array' }],
     '@typescript-eslint/await-thenable': 2,
     '@typescript-eslint/ban-types': 2,
+    '@typescript-eslint/brace-style': [1, 'stroustrup'],
     '@typescript-eslint/comma-dangle': 1,
     '@typescript-eslint/comma-spacing': 1,
     '@typescript-eslint/consistent-generic-constructors': [2, 'constructor'],
@@ -17,6 +18,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-exports': 2,
     '@typescript-eslint/func-call-spacing': 1,
     '@typescript-eslint/indent': 1,
+    '@typescript-eslint/keyword-spacing': 1,
     '@typescript-eslint/lines-between-class-members': 0,
     '@typescript-eslint/method-signature-style': [2, 'property'],
     '@typescript-eslint/no-base-to-string': 2,
@@ -49,6 +51,7 @@ module.exports = {
     '@typescript-eslint/quotes': 1,
     '@typescript-eslint/require-array-sort-compare': 2,
     '@typescript-eslint/sort-type-constituents': 2,
+    '@typescript-eslint/space-before-blocks': 1,
     '@typescript-eslint/space-infix-ops': 1,
     '@typescript-eslint/type-annotation-spacing': 1,
 

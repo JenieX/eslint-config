@@ -1,7 +1,6 @@
 module.exports = {
   rules: {
     // Turn OFF, because it is checked by TS.
-    'import/no-unresolved': 0,
     'no-const-assign': 0,
     'no-undef': 0,
     'no-unreachable': 0,
@@ -18,13 +17,11 @@ module.exports = {
     'arrow-spacing': 1,
     'default-case': 0,
     'eol-last': 1,
-    'import/extensions': [2, 'always', { ts: 'never' }],
-    'import/no-extraneous-dependencies': 0,
     'key-spacing': 1,
     'no-alert': 0,
     'no-await-in-loop': 0,
     'no-console': 0,
-    'no-empty': [2, { allowEmptyCatch: true }],
+    'no-empty': [1, { allowEmptyCatch: true }],
     'no-multi-spaces': 1,
     'no-multiple-empty-lines': 1,
     'no-nested-ternary': 0,
