@@ -18,7 +18,7 @@ module.exports = {
     // './rules/html'
 
     /** Should always be after typescript rules. */
-    './rules/inline-script',
+    // './rules/inline-script',
 
     './rules/ignore',
     './rules/testing',
