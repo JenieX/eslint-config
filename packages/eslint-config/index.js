@@ -10,19 +10,10 @@ module.exports = {
     './rules/import',
     './rules/unicorn',
     './rules/standard',
-
-    /**
-     * LOL, should probably be after `inline-js`, but it seems to work. Requires
-     * `@html-eslint/eslint-plugin`.
-     */
-    // './rules/html'
-
-    /** Should always be after typescript rules. */
-    // './rules/inline-script',
-
     './rules/ignore',
     './rules/testing',
     './rules/user-script',
+    './rules/prettier',
   ],
 };
 
