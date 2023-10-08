@@ -3,7 +3,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: './tsconfig.json',
+
+    // https://github.com/typescript-eslint/typescript-eslint/issues/1681
+    // https://typescript-eslint.io/packages/parser/#project
+    // Use the tsconfig.json nearest to each source file.
+    project: true,
   },
   rules: {
     '@typescript-eslint/array-type': [2, { default: 'array' }],
